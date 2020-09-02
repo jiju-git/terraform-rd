@@ -3,7 +3,7 @@ parse module
 https://github.com/hashicorp/hcl
 
 The following code can take a (.tf) file and output the JSON.
-
+```
 FileContent, err := ioutil.ReadFile("new.tf") // just pass the file name
 	if err != nil {
 		fmt.Print(err)
@@ -21,7 +21,7 @@ FileContent, err := ioutil.ReadFile("new.tf") // just pass the file name
 	jsonStr := string(outData)
 	fmt.Println("The JSON data is:")
 	fmt.Println(jsonStr) 
-
+```
 
 # also see
 https://github.com/hashicorp/terraform-config-inspect
