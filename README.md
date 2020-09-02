@@ -1,4 +1,9 @@
 # terraform-rd
+* Parse 
+[Idea for parsing](
+https://github.com/hashicorp/terraform/issues/21020)
+
+
 parse module
 https://github.com/hashicorp/hcl
 
